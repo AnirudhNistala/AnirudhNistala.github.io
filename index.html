@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+<link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
 <head>
-    <title>CSS Website Layout</title>
+    <title>Spotify Stats</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -11,10 +12,17 @@
     }
     .header {
         background-color: #E1E9E3;
-        padding: 20px;
+        padding: 5px;
         text-align: center;
         color: #089F4A;
-        font-family: "Courier New", Courier, monospace;
+        font-family: "Amatic SC";
+        font-size: 30px;
+    }
+    .welcome {
+        text-align:center;
+        font-family: "Amatic SC";
+        font-size: 30px;
+        line-height: 2em;
     }
 </style>
 </head>
@@ -25,15 +33,16 @@
     <h1>Spotify Stats</h1>
 
     <nav>
-        <button>Settings</button> <button>Top Artists</button> <button>Top Songs</button> <button> ??? </button>
+        <button>Settings</button> <button>Top Artists</button> <button>Top Songs</button>
     </nav>
 
 </div>
 
-<div>
-    <p> Welcome to your spotify stats</p>
 
-    <p>This is another paragraph </p>
+<div class="welcome">
+    <p style="float: left"><img src="headphones2.png" alt="Headphones" border="2px" hspace="30"></p>
+    <p style="line-height: 15em"> Welcome to your Spotify Stats</p>
 </div>
+
 
 </body>

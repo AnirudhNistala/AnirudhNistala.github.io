@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background-color: #33691e;
+}
+body .header {
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-family: "Cairo";
+    font-size: 30px;
+}
+body .welcome {
+    text-align:center;
+    font-family: "Cairo";
+    font-size: 20px;
+    line-height: 2em;
+    color: white;
+}
+
+body .welcome .headphones {
+    align: center;
+    alt:"Headphones";
+    padding: 2px;
+    height: 350px;
+    border: 1px solid white;
+    border-radius: 1px;
+    margin-left: 30px;
+    margin-top: 20px;
+    float: left;
+}
+body .filler {
+    line-height: 7em;
+    text-align:center;
+    font-family: "Cairo";
+    font-size: 20px;
+    color: white;
+
+}
+body .artists4w {
+    color: white;
+    background-color: black;
+    font-family:"Cairo";
+    font-size: 20px;
+    padding: 40px;
+}
+body .artists4w .billie {
+    alt:"Billie";
+    height:300px;
+    width:300px;
+    border: white 3px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+body .artists4w .artist1-10 {
+    float: left;
+    width: 50%;
+}
+
+body .artists4w .artist1-10 {
+    float: left;
+    width: 50%;
+    margin-top: 3px;
+}
+
+

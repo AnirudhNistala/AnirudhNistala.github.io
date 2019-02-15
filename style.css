@@ -48,10 +48,11 @@ body .artists4w .billie {
     alt:"Billie";
     height:300px;
     width:300px;
-    border: white 3px;
     float: right;
-    margin-top: 25px;
+    margin-top: 30px;
     margin-right: 40px;
+    border: 1px solid white;
+    border-radius: 1px;
 }
 
 body .artists4w .artist1-10 {
@@ -64,5 +65,33 @@ body .artists4w .artist1-10 {
     width: 50%;
     margin-top: 3px;
 }
+body .artists6m {
+    color: white;
+    background-color: black;
+    font-family:"Cairo";
+    font-size: 20px;
+    padding: 40px;
+}
 
+body .artists6m .artists1-25 {
+    float: left;
+    width: 50%;
+}
+
+body .artists6m .artist26-50 {
+    float: left;
+    width: 50%;
+    margin-top: 3px;
+}
+body .artists6m .lorde {
+    alt:"Lorde";
+    height:350px;
+    width:250px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 50px;
+    margin-left: 10px;
+    border: 1px solid white;
+    border-radius: 1px;
+}
 

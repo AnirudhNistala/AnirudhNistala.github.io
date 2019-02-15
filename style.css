@@ -94,4 +94,42 @@ body .artists6m .lorde {
     border: 1px solid white;
     border-radius: 1px;
 }
+body .fillertitle {
+    line-height: 7em;
+    text-align:center;
+    font-family: "Cairo";
+    font-size: 20px;
+    color: white;
+    background-color: black
+}
+
+body .artistsoverall {
+    color: white;
+    background-color: black;
+    font-family:"Cairo";
+    font-size: 20px;
+    padding: 40px;
+}
+
+body .artistsoverall .overallartists1-25 {
+    float: left;
+    width: 50%;
+}
+
+body .artistsoverall .overallartist26-50 {
+    float: left;
+    width: 50%;
+    margin-top: 3px;
+}
+body .artistsoverall .khalid {
+    alt:"Khalid";
+    height:350px;
+    width:280px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 50px;
+    margin-left: 10px;
+    border: 1px solid white;
+    border-radius: 1px;
+}
 

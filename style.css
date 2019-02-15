@@ -132,4 +132,11 @@ body .artistsoverall .khalid {
     border: 1px solid white;
     border-radius: 1px;
 }
-
+body .signature {
+    line-height: 7em;
+    text-align:center;
+    font-family: "Cairo";
+    font-size: 20px;
+    color: white;
+    background-color: black
+}
